@@ -1,0 +1,38 @@
+ORG 0000H
+
+; -------------------------------------------------
+; STEP 1: INITIALIZE DUMMY DATA (direct addressing)
+; -------------------------------------------------
+
+MOV 40H, #12H
+MOV 41H, #0FFH
+MOV 42H, #34H
+MOV 43H, #0FFH
+MOV 44H, #56H
+MOV 45H, #78H
+MOV 46H, #0FFH
+MOV 47H, #9AH
+MOV 48H, #0FFH
+MOV 49H, #0BCH
+MOV 4AH, #0FFH
+MOV 4BH, #0DEH
+MOV 4CH, #0FFH
+MOV 4DH, #0F0H
+MOV 4EH, #0FFH
+MOV 4FH, #11H
+MOV 50H, #0FFH
+MOV 51H, #22H
+MOV 52H, #0FFH
+MOV 53H, #33H
+MOV 54H, #0FFH
+MOV 55H, #44H
+MOV 56H, #0FFH
+MOV 57H, #55H
+MOV 58H, #0FFH
+MOV 59H, #66H
+MOV 5AH, #0FFH
+MOV 5BH, #77H
+MOV 5CH, #0FFH
+MOV 5DH, #88H
+MOV 5EH, #0FFH
+MOV 5FH, #99H
